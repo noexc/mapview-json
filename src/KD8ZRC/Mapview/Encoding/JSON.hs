@@ -13,7 +13,8 @@
 ----------------------------------------------------------------------------
 module KD8ZRC.Mapview.Encoding.JSON
        ( MapviewJson ()
-       , mkMapviewJson) where
+       , mkMapviewJson
+       , writeChanJsonPkt) where
 
 import qualified Control.Concurrent.Chan as Chan
 import Control.Monad (mzero)
